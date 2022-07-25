@@ -2,24 +2,11 @@
 
 This example shows how to configure Jest to work with Next.js.
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript.
+This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript. It originally came from the `with-jest` [example from Next.js](https://github.com/vercel/next.js/tree/canary/examples/with-jest).
 
-## How to Use
+I've updated the example to add in the following:
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
-
-```bash
-npx create-next-app --example with-jest with-jest-app
-# or
-yarn create next-app --example with-jest with-jest-app
-# or
-pnpm create next-app --example with-jest with-jest-app
-```
-
-## Run Jest Tests
-
-```bash
-npm test
-```
+- [react-query](https://react-query-v3.tanstack.com/)
+  - Incorporating the [snippets from the react-query docs for v3](https://tkdodo.eu/blog/testing-react-query)
+- [msw](https://mswjs.io/)
+  - Following the [official next.js example](https://github.com/vercel/next.js/tree/canary/examples/with-msw)
